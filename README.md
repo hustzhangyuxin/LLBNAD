@@ -52,7 +52,6 @@ pip install mmdet==2.25.3 adeval torch==2.1.2 --index-url https://download.pytor
 
 ### 🚀 Train & Evaluate
 ```bash  
-# Example: Train CDO on M2AD-Synergy  
 CUDA_VISIBLE_DEVICES=0 python run_dataset.py --cfg_path configs/benchmark/dinomaly/dinomaly_100e.py -m train  
 ```  
 ## 🧩 Trainer Framework
