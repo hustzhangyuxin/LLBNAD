@@ -88,4 +88,4 @@ If LLBNAD contributes to your research, we kindly request that you cite our work
 ```  
 
 ## Contact
-If you have any questions about our work, please do not hesitate to contact [zyx_hust@hust.edu.cn](mailto:yuqicheng@hust.edu.cn).
+If you have any questions about our work, please do not hesitate to contact [zyx_hust@hust.edu.cn](mailto:zyx_hust@hust.edu.cn).
