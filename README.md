@@ -1,4 +1,4 @@
-# Levarging Learning Bias for Noisy Anomaly Detection 
+# Leveraging Learning Bias for Noisy Anomaly Detection 
 > 📚 [**Paper**](https://arxiv.org/abs/2508.07441) 
 > by [Yuxin Zhang](https://hustzhangyuxin.github.io), [Yunkang Cao](https://caoyunkang.github.io/), [Yuqi Cheng](https://hustcyq.github.io/), [Yihan Sun](https://hustsyh.github.io/), [Weiming Shen](https://scholar.google.com/citations?user=FuSHsx4AAAAJ&hl=en),  
 
@@ -7,20 +7,7 @@
 
 
 ## 📊 Introduction  
-
-This paper addresses the challenge of fully unsupervised image anomaly detection (FUIAD), where training data may 
-contain unlabeled anomalies. Conventional methods assume anomaly-free training data, but real-world contamination leads 
-models to absorb anomalies as normal, degrading detection performance. To mitigate this, we propose a two-stage 
-framework that systematically exploits inherent learning bias in models. The learning bias stems from: (1) the 
-statistical dominance of normal samples, driving models to prioritize learning stable normal patterns over sparse 
-anomalies, and (2) feature-space divergence, where normal data exhibit high intra-class consistency while anomalies 
-display high diversity, leading to unstable model responses. Leveraging the learning bias, stage 1 partitions the 
-training set into subsets, trains sub-models, and aggregates cross-model anomaly scores to filter a purified dataset. 
-Stage 2 trains the final detector on this dataset. Experiments on the Real-IAD benchmark demonstrate superior anomaly 
-detection and localization performance under different noise conditions. Ablation studies further validate the 
-framework's contamination resilience, emphasizing the critical role of learning bias exploitation. The model-agnostic 
-design ensures compatibility with diverse unsupervised backbones, offering a practical solution for real-world scenarios 
-with imperfect training data.
+This paper addresses the challenge of fully unsupervised image anomaly detection (FUIAD), where training data may contain unlabeled anomalies. Conventional methods assume anomaly-free training data, but real-world contamination leads models to absorb anomalies as normal, degrading detection performance. To mitigate this, we propose a two-stage framework that systematically exploits inherent learning bias in models. The learning bias stems from: (1) the statistical dominance of normal samples, driving models to prioritize learning stable normal patterns over sparse anomalies, and (2) feature-space divergence, where normal data exhibit high intra-class consistency while anomalies display high diversity, leading to unstable model responses. Leveraging the learning bias, stage 1 partitions the training set into subsets, trains sub-models, and aggregates cross-model anomaly scores to filter a purified dataset. Stage 2 trains the final detector on this dataset. Experiments on the Real-IAD benchmark demonstrate superior anomaly detection and localization performance under different noise conditions. Ablation studies further validate the framework's contamination resilience, emphasizing the critical role of learning bias exploitation. The model-agnostic design ensures compatibility with diverse unsupervised backbones, offering a practical solution for real-world scenarios with imperfect training data.
 
 <div align="center">
   <img src="framework.jpg" width="80%" />
